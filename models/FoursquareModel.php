@@ -152,7 +152,7 @@ class FoursquareModel extends SourceModel {
 		$form->addElement($element);
 
 		// Add the feed element
-		$element = $form->createElement( 'text', 'url', array('label' => 'Feed URL', 'decorators' => $form->elementDecorators ) );
+		$element = $form->createElement( 'text', 'url', array('label' => 'RSS Feed URL', 'decorators' => $form->elementDecorators ) );
 		$element->setRequired(true);
 		$form->addElement($element);
 
